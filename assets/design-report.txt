@@ -1,0 +1,44 @@
+Design Report – Jlin Brown
+Portfolio Website Project
+
+Overview
+For my final project, I created a personal portfolio website hosted at GitHub Pages. The purpose of the site is to introduce who I am, show my skills, highlight my projects, and give visitors a way to contact me. I used HTML, CSS, Bootstrap, GitHub Pages, and Web3Forms. My goal was to build a clean and simple website that works well on both desktop and mobile screens.
+
+Layout and Navigation
+I chose a multi-page layout because it keeps information organized and easy to follow. The navigation bar appears at the top of every page, with links to Home, About, Projects, Experience, Contact, and References. I marked the current page with an “active” class so visitors always know where they are.
+
+The Home page uses a hero section because it quickly introduces me with a headline, short description, and links to my content. Below the hero, I used card components to show my education, skills, and recent projects at a glance.
+
+Other pages follow a simple grid layout using Bootstrap’s column system. This keeps the content readable and allows the layout to change automatically on smaller screens.
+
+Color Scheme and Typography
+My color scheme uses a dark navy blue (#0d1b2a) as the primary color and a lighter navy as a secondary tone. I added a teal accent color (#17a2b8) to highlight buttons and key elements. I chose these colors because they look professional, modern, and easy to read. The light background helps text stand out, and the navy tones create a strong contrast.
+
+For typography, I used system fonts such as Segoe UI, Roboto, and San Francisco. These fonts are clean, modern, and readable on all devices. Bootstrap also provides good spacing and heading sizes, which helped keep the page structured.
+
+Wireframes and Mockups
+Before coding, I sketched wireframes to plan the layout. My wireframes included:
+• A hero section with text on one side and an image on the other.
+• A consistent navigation bar at the top.
+• Card layouts for projects and experience.
+• A two-column layout for the About and Contact pages on larger screens.
+
+I based my wireframes on a 12-column grid similar to Bootstrap. This made it much easier to convert the design into real code. The wireframes helped me focus on structure first before deciding colors or details.
+
+Responsive Design
+I used Bootstrap’s grid system to make the site responsive. On larger screens, pages show multiple columns. On smaller screens, the layout stacks into one column so it stays readable. I also added CSS rules that make the hero section and profile photo adjust size on mobile screens. The navbar automatically turns into a hamburger menu on phones, which helps save space.
+
+Challenges and How I Solved Them
+One challenge was deciding whether to make the site a single-page layout or multiple pages. I chose multiple pages because it keeps each section short and clear. It also follows the assignment requirements for navigation.
+
+Another challenge was building a contact form on a static website. Since static sites can’t run back-end code, I used Web3Forms. I inserted my access key and created hidden fields for subject and form name. I added Bootstrap validation to make sure users enter correct information.
+
+The last challenge was making sure my HTML was valid. I used the W3C validator and fixed issues like missing alt text, missing labels, and incorrect nesting. This improved accessibility and code quality.
+
+Public URL
+My portfolio is hosted at:
+https://YOURGITHUBUSERNAME.github.io
+(Replace this line with your actual link once your site is live.)
+
+Conclusion
+Overall, this project helped me understand layout, color theory, responsive design, and how to organize a real website. It also showed me how important planning is when creating a good user experience. I am proud of the final result and feel more confident using HTML, CSS, and Bootstrap.

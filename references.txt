@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>References | Jlin Brown Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">Jlin Brown</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" href="references.html">References</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="section-padding">
+    <div class="container">
+
+      <h1 class="mb-3">References</h1>
+      <p>This page lists the resources and tools I used while creating this portfolio.</p>
+
+      <!-- Web & Framework Documentation -->
+      <h2 class="h5 mt-4">Web & Framework Documentation</h2>
+      <ul>
+        <li>Bootstrap 5 Documentation — layout, components, utilities.</li>
+        <li>MDN Web Docs — HTML and CSS reference.</li>
+        <li>Web3Forms Documentation — setup for static website contact forms.</li>
+        <li>GitHub Pages Documentation — hosting static websites.</li>
+      </ul>
+
+      <!-- Course Materials -->
+      <h2 class="h5 mt-4">Course Materials</h2>
+      <ul>
+        <li>Hello Web Design — references on layout, color theory, and typography.</li>
+        <li>Lecture notes and code examples from Web Design class.</li>
+      </ul>
+
+      <!-- AI Prompts -->
+      <h2 class="h5 mt-4">AI Prompts & Tools Used</h2>
+      <p>Below are the prompts I used during development, as required by the assignment.</p>
+
+      <ul>
+        <li>
+          Platform: <strong>ChatGPT (OpenAI GPT-5.1 Thinking)</strong>  
+          Prompt:  
+          “Given your knowledge of web design principles, HTML, CSS, and Bootstrap, you will create a static website that serves as your personal portfolio… can you complete this project for me and my name is Jlin Brown.”
+        </li>
+
+        <li>
+          Follow-up prompts used for page-by-page code generation, styling, and design report creation.
+        </li>
+      </ul>
+
+      <p class="mt-4">All assets, images, and content included are either my own work or free-to-use resources.</p>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-1">&copy; <span id="year"></span> Jlin Brown</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();

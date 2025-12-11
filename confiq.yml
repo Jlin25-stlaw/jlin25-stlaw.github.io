@@ -1,0 +1,14 @@
+title: "Jlin Brown Portfolio"
+description: "Personal portfolio website for Jlin Brown"
+theme: minima
+markdown: kramdown
+exclude:
+  - README.md
+  - node_modules/
+  - package.json
+  - package-lock.json
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed 
